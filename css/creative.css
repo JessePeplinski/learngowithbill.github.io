@@ -146,19 +146,17 @@ aside {
     color: #F05F40;
   }
 }
-header {
-  position: relative;
-  width: 100%;
-  min-height: auto;
+header {   
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/bill-speaking.jpg');
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+  -moz-background-size:  cover;
   -o-background-size: cover;
+  background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
   text-align: center;
   color: white;
 }
+
 header .header-content {
   position: relative;
   text-align: center;
