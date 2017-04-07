@@ -212,6 +212,34 @@
                     </div>
                 </div>
 -->
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">How to Donate</h4>
+      </div>
+      <div class="modal-body">
+                <ol>
+                    <li><a href="https://secure.potsdam.edu/giving/" target="_blank">Donate online by clicking here</a>.</li>
+                    <li>Fill in “Computer Science - Ultimate Go" for the Specific Program / Activity field. Do not check the “Greatest needs of the college” box.</li>
+                    <li>Fill in the remainder of the fields with your information.</li>
+                    <li>Fill in the amount of money you would like to donate in the “Gift Amount” box at the bottom of the page.</li>
+                    <li>When asked to “Select Method of Payment”, click the continue button.</li>
+                    <li>Enter your card information and click the continue button.</li>
+                    <li>Review your payment option and click “Submit Gift”.</li>
+                </ol>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <!-- PRICE ITEM -->
                     <div class="panel price panel-white">
@@ -224,7 +252,7 @@
                         <p class="text-center">Donations will allow us to provide lunch and t-shirts for the event, and contribute to the growth of the SUNY Potsdam ACM. We would normally charge $600 for this event. We recommend a donation of $300, or whatever you can afford.</p>
                         <div class="panel-footer">
                             <!-- TODO -->
-                            <a class="btn btn-lg btn-block btn-default" href="" target="_blank">Donate Now!</a>
+                            <button data-toggle="modal" data-target="#myModal" type="button" class="btn btn-lg btn-block btn-default">Donate Now!</button>
                         </div>
                     </div>
                     <!-- /PRICE ITEM -->
